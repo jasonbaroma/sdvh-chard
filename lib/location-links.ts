@@ -1,7 +1,7 @@
 import { slugifyLocation } from "@/lib/utils";
 
 export const mainLocationLink = {
-  label: "{{MAIN_LOCATION_NAME}}",
+  label: "Chard",
   href: "/",
 };
 
@@ -14,55 +14,55 @@ type LocationMetadata = {
 };
 
 const mainLocationMetadata: LocationMetadata = {
-  label: "{{MAIN_LOCATION_NAME}}",
+  label: "Chard",
   href: "/",
-  county: "{{MAIN_LOCATION_COUNTY}}",
-  region: "{{MAIN_LOCATION_REGION}}",
-  population: "{{MAIN_LOCATION_POPULATION}}",
+  county: "Somerset",
+  region: "South West England",
+  population: "13800",
 };
 
 const LOCATION_METADATA: LocationMetadata[] = [
   {
-    label: "{{LOCATION_1_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_1_NAME}}")}`,
-    county: "{{LOCATION_1_COUNTY}}",
-    region: "{{LOCATION_1_REGION}}",
-    population: "{{LOCATION_1_POPULATION}}",
+    label: "Crewkerne",
+    href: `/${slugifyLocation("Crewkerne")}`,
+    county: "Somerset",
+    region: "South West England",
+    population: "7900",
   },
   {
-    label: "{{LOCATION_2_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_2_NAME}}")}`,
-    county: "{{LOCATION_2_COUNTY}}",
-    region: "{{LOCATION_2_REGION}}",
-    population: "{{LOCATION_2_POPULATION}}",
+    label: "Bridport",
+    href: `/${slugifyLocation("Bridport")}`,
+    county: "Dorset",
+    region: "South West England",
+    population: "7400",
   },
   {
-    label: "{{LOCATION_3_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_3_NAME}}")}`,
-    county: "{{LOCATION_3_COUNTY}}",
-    region: "{{LOCATION_3_REGION}}",
-    population: "{{LOCATION_3_POPULATION}}",
+    label: "Somerton",
+    href: `/${slugifyLocation("Somerton")}`,
+    county: "Somerset",
+    region: "South West England",
+    population: "4700",
   },
   {
-    label: "{{LOCATION_4_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_4_NAME}}")}`,
-    county: "{{LOCATION_4_COUNTY}}",
-    region: "{{LOCATION_4_REGION}}",
-    population: "{{LOCATION_4_POPULATION}}",
+    label: "Axminster",
+    href: `/${slugifyLocation("Axminster")}`,
+    county: "Devon",
+    region: "South West England",
+    population: "5900",
   },
   {
-    label: "{{LOCATION_5_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_5_NAME}}")}`,
-    county: "{{LOCATION_5_COUNTY}}",
-    region: "{{LOCATION_5_REGION}}",
-    population: "{{LOCATION_5_POPULATION}}",
+    label: "Wellington",
+    href: `/${slugifyLocation("Wellington")}`,
+    county: "Somerset",
+    region: "South West England",
+    population: "14900",
   },
   {
-    label: "{{LOCATION_6_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_6_NAME}}")}`,
-    county: "{{LOCATION_6_COUNTY}}",
-    region: "{{LOCATION_6_REGION}}",
-    population: "{{LOCATION_6_POPULATION}}",
+    label: "Ilminster",
+    href: `/${slugifyLocation("Ilminster")}`,
+    county: "Somerset",
+    region: "South West England",
+    population: "5800",
   },
 ];
 
