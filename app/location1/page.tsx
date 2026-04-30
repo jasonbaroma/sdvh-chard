@@ -6,7 +6,7 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location1-hero",
     src: "/images/torpoint-hero-country-road.jpeg",
-    alt: "Silver rental estate car travelling on a rural road near Crewkerne",
+    alt: "Estate hire car travelling on a rural road near Crewkerne with open farmland in the background.",
   };
 
   return (
@@ -14,29 +14,29 @@ export default function LocationPage() {
       currentLocationLabel="Crewkerne"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Ilminster"
-      heroDescription="Vehicle Hire Ilminster for everyday driving, local moves, business transport, and group travel. Choose from cars, vans, minibuses, and trucks with practical booking options."
-      serviceAreasTitle="Serving Ilminster and nearby roads"
-      serviceAreasDescription="We support hires in Ilminster and nearby parts of South Somerset, with coverage that also suits journeys heading toward Taunton, Chard, Yeovil, and surrounding villages."
-      infoContentSectionKicker="Useful hire guidance"
-      infoContentSectionTitle="Getting the most from vehicle hire in Ilminster"
-      infoContentSectionIntro="Vehicle hire in Ilminster is often about convenience. Whether you need a short-term replacement car, a van for a practical job, or a larger vehicle for group or work use, the town is well placed for straightforward onward travel across South Somerset and beyond."
-      infoContentBlock1Title="Useful for town and route-based travel"
-      infoContentBlock1Body="Ilminster works well for drivers who need quick access to nearby towns and the A303 corridor. That makes hired cars and vans useful for business travel, appointments, deliveries, and collecting larger items without relying on a permanent larger vehicle."
-      infoContentBlock2Title="A sensible option for home and family plans"
-      infoContentBlock2Body="For households in and around Ilminster, van hire can be a practical way to handle furniture pickups, storage runs, and smaller house moves. If the job involves people as well as luggage, a minibus can be a better fit than taking multiple cars."
-      infoContentBlock3Title="Choosing the right vehicle for the task"
-      infoContentBlock3Body="If you are hiring for work, it helps to think about load space, access, and how many stops you expect to make. We can help you choose between compact vans, larger panel vans, Lutons, or heavier-duty options where needed."
-      bottomCtaTitle="Plan your hire in Ilminster"
-      bottomCtaDescription="From local errands to longer drives across the Blackdown Hills area, we can help arrange a suitable car, van, minibus, or truck."
-      secondaryCtaTitle="Ready to sort the details?"
-      secondaryCtaDescription="If you already know your dates and route, get in touch and we will help you line up a suitable vehicle without unnecessary back and forth."
+      heroTitle="Vehicle Hire Crewkerne"
+      heroDescription="Vehicle hire in Crewkerne for local jobs, business travel and longer journeys. Choose from cars, vans, minibuses and trucks with practical booking support."
+      serviceAreasTitle="Serving Crewkerne and nearby roads"
+      serviceAreasDescription="We cover Crewkerne and nearby villages, with vehicle hire support for surrounding Somerset and border routes into Dorset."
+      infoContentSectionKicker="Planning your hire"
+      infoContentSectionTitle="Useful vehicle hire guidance for Crewkerne journeys"
+      infoContentSectionIntro="Crewkerne sits in a practical spot for self-drive hire, with the A30 running through town and quick links to the A303 for journeys across Somerset, Dorset and Devon. Whether you are moving home, covering a work run, arranging extra family transport or collecting bulky items, vehicle hire in Crewkerne gives you flexibility without needing a long detour to collect the right vehicle."
+      infoContentBlock1Title="Using the A303 from Ilminster"
+      infoContentBlock1Body="Ilminster is well placed for drivers using the A303, making it a practical spot for longer trips east or west as well as local runs into Chard, Yeovil and Taunton. If you are collecting stock, heading to a site or moving bulky items, quick access to the main route is a real advantage."
+      infoContentBlock2Title="Town access and useful stop points"
+      infoContentBlock2Body="The town centre is easier to navigate in a car or small van, while larger vans are often better suited to jobs planned around the edge of town and main-road access. For fuel and supplies, the Southfields area near the A303 is a handy stopping point before setting off."
+      infoContentBlock3Title="Choosing the right vehicle for Ilminster jobs"
+      infoContentBlock3Body="Ilminster works well for a mix of personal and business hire. A family car can help with weekend travel towards the coast or countryside, while larger vans and trucks suit local contractors, deliveries and property work across South Somerset."
+      bottomCtaTitle="Book your Crewkerne vehicle hire"
+      bottomCtaDescription="Need vehicle hire in Crewkerne for work, moving day or a longer trip? We can help arrange the right car, van, minibus or truck with straightforward local service."
+      secondaryCtaTitle="Plan a Crewkerne booking with confidence"
+      secondaryCtaDescription="If you are comparing options for Crewkerne, speak to our team and we will help match the hire to your route, load size or passenger needs."
       faqs={[
-        { question: "What vehicle hire options do you offer in Ilminster?", answer: "Yes. We arrange vehicle hire for Ilminster covering cars, vans, minibuses, and trucks, depending on what you need the vehicle for." },
-        { question: "Can the vehicle be delivered in Ilminster?", answer: "Delivery is available on many bookings, which can be useful if you want the vehicle brought to your home, workplace, or another agreed local address." },
-        { question: "Do you provide one-way hire from Ilminster?", answer: "Yes, one-way hire may be possible on selected rentals. Share your route with us and we will confirm whether that option is available." },
-        { question: "Can I take a hire vehicle from Ilminster into Europe?", answer: "Some vehicles can be approved for European travel, but this needs to be arranged before the hire starts so the correct details can be confirmed." },
-        { question: "Is unlimited mileage available for Ilminster bookings?", answer: "Many hires can be arranged with unlimited mileage. Let us know your likely distance so we can guide you to the right booking." },
+        { question: "Can I arrange vehicle hire in Crewkerne with delivery?", answer: "Yes, we can arrange vehicle hire for Crewkerne with delivery and collection options in the town and nearby areas, subject to booking details and vehicle type." },
+        { question: "What vehicles can I hire in Crewkerne?", answer: "Crewkerne bookings can include cars, vans, minibuses and selected trucks, depending on availability and the type of journey you are planning." },
+        { question: "Is one-way hire available from Crewkerne?", answer: "Yes, one-way hire may be available from Crewkerne for some vehicles. It depends on the route, timing and fleet availability when you book." },
+        { question: "Do you offer short and longer vehicle hire in Crewkerne?", answer: "Yes, subject to availability. We can discuss longer hires, fleet support and practical options for regular business use." },
+        { question: "Can I use a Crewkerne hire vehicle for business travel?", answer: "You will need to meet the normal driving licence and identification requirements for the category of vehicle requested." },
       ]}
     />
   );

@@ -5,8 +5,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Vehicle Hire Chard | Cars, Vans, Minibuses & Trucks",
-  description: "Vehicle Hire Chard for cars, vans, minibuses and trucks. Practical rental options with UK coverage, flexible hire periods and helpful local support.",
+  title: "Vehicle Hire Barnstaple | Cars, Vans, Minibuses & Trucks",
+  description: "Vehicle hire in Barnstaple for cars, vans, minibuses and trucks. Practical self-drive options with flexible booking, local support and wide area coverage.",
   alternates: {
     canonical: "/",
   },

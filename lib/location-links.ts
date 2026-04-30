@@ -18,7 +18,7 @@ const mainLocationMetadata: LocationMetadata = {
   href: "/",
   county: "Somerset",
   region: "South West England",
-  population: "13800",
+  population: "13674",
 };
 
 const LOCATION_METADATA: LocationMetadata[] = [
@@ -30,39 +30,39 @@ const LOCATION_METADATA: LocationMetadata[] = [
     population: "7900",
   },
   {
-    label: "Bridport",
-    href: `/${slugifyLocation("Bridport")}`,
-    county: "Dorset",
-    region: "South West England",
-    population: "7400",
-  },
-  {
-    label: "Somerton",
-    href: `/${slugifyLocation("Somerton")}`,
-    county: "Somerset",
-    region: "South West England",
-    population: "4700",
-  },
-  {
-    label: "Axminster",
-    href: `/${slugifyLocation("Axminster")}`,
-    county: "Devon",
-    region: "South West England",
-    population: "5900",
-  },
-  {
-    label: "Wellington",
-    href: `/${slugifyLocation("Wellington")}`,
-    county: "Somerset",
-    region: "South West England",
-    population: "14900",
-  },
-  {
     label: "Ilminster",
     href: `/${slugifyLocation("Ilminster")}`,
     county: "Somerset",
     region: "South West England",
-    population: "5800",
+    population: "5808",
+  },
+  {
+    label: "Honiton",
+    href: `/${slugifyLocation("Honiton")}`,
+    county: "Devon",
+    region: "South West England",
+    population: "11922",
+  },
+  {
+    label: "Bridport",
+    href: `/${slugifyLocation("Bridport")}`,
+    county: "Dorset",
+    region: "South West England",
+    population: "10612",
+  },
+  {
+    label: "Langport",
+    href: `/${slugifyLocation("Langport")}`,
+    county: "Somerset",
+    region: "South West England",
+    population: "1081",
+  },
+  {
+    label: "Colyton",
+    href: `/${slugifyLocation("Colyton")}`,
+    county: "Devon",
+    region: "South West England",
+    population: "2305",
   },
 ];
 
@@ -83,3 +83,10 @@ export const locationSlugEntries = LOCATION_METADATA.map(({ label }, index) => (
   label,
   slug: slugifyLocation(label),
 }));
+
+export const mainLocationMetadata = {
+  name: mainLocationName,
+  county: 'Somerset',
+  region: 'South West England',
+  population: '13674',
+}

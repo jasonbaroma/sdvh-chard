@@ -6,37 +6,37 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location6-hero",
     src: "/images/callington-country-road.jpeg",
-    alt: "Medium hire van driving around a hedgerow-lined bend near Ilminster",
+    alt: "Customer receiving keys beside a hire van and car on a quiet rural road near Colyton.",
   };
 
   return (
     <HomePage
-      currentLocationLabel="Ilminster"
+      currentLocationLabel="Colyton"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Ilminster"
-      heroDescription="Vehicle Hire Ilminster for local journeys, trade work, moves and longer trips. Choose from cars, vans, minibuses and trucks with practical support from booking to return."
-      serviceAreasTitle="Around Ilminster and nearby communities"
-      serviceAreasDescription="We support customers across Ilminster and surrounding Somerset villages, with vehicle hire that works for local collections, regional routes and longer journeys across the UK."
-      infoContentSectionKicker="Planning your hire"
-      infoContentSectionTitle="Useful vehicle hire advice for Ilminster"
-      infoContentSectionIntro="Hiring in Ilminster is often about convenience as much as vehicle choice. Some customers need a dependable car for regional travel, others need van space for property jobs or deliveries, and some need a larger vehicle for group transport or heavier carrying work."
-      infoContentBlock1Title="A practical base for onward travel"
-      infoContentBlock1Body="Ilminster works well as a base for travel in several directions, so the right hire vehicle can save time from the start. A car suits everyday journeys, while a van or truck can make loads, tools or stock easier to move without relying on multiple trips."
-      infoContentBlock2Title="Matching the vehicle to the job"
-      infoContentBlock2Body="For customers around Ilminster, hire often comes down to choosing the right size and timing. Small vans help with lighter loads, larger vans suit moves and deliveries, and minibuses are useful when a group wants to travel together rather than in separate cars."
-      infoContentBlock3Title="Keeping the day straightforward"
-      infoContentBlock3Body="If you want to keep your plans simple, ask about delivery and collection options. That can be especially helpful when your schedule is built around work, a move, or a weekend trip where collection from another point makes more sense."
-      bottomCtaTitle="Book vehicle hire for Ilminster"
-      bottomCtaDescription="Speak to our team about the right vehicle for your journey from Ilminster, whether you need a compact car, a larger van, a minibus or a truck for heavier work."
-      secondaryCtaTitle="Talk through your travel plans"
-      secondaryCtaDescription="Tell us what you are moving, where you are travelling, or how many people need to ride, and we will point you towards a suitable hire option."
+      heroTitle="Vehicle Hire in Colyton"
+      heroDescription="Vehicle hire in Colyton for East Devon travel, countryside driving and practical everyday transport. Flexible options for personal and business use."
+      serviceAreasTitle="Serving Colyton and nearby East Devon"
+      serviceAreasDescription="We cover Colyton and surrounding East Devon routes, making it easier to book for local travel, business use, coastal breaks and one-way journeys where available."
+      infoContentSectionKicker="Local hire guidance"
+      infoContentSectionTitle="Practical vehicle hire advice for Colyton journeys"
+      infoContentSectionIntro="Vehicle hire in Colyton suits a mix of rural driving, coastal access and everyday practical jobs. Whether you need a car for flexible travel, a van for moving goods, a minibus for a group outing or a truck for heavier work, having the right vehicle makes local planning much easier."
+      infoContentBlock1Title="Getting in and out of Colyton"
+      infoContentBlock1Body="Colyton is well placed for journeys along the A3052 and quick runs toward Seaton, Axminster and Exeter. If you are collecting stock, moving equipment or heading out with family, choosing the right vehicle size helps on narrower local roads before joining the main route."
+      infoContentBlock2Title="Useful stops before a longer trip"
+      infoContentBlock2Body="For everyday essentials before setting off, most drivers use nearby fuel and supermarket stops in Seaton or Axminster. That is useful if you are planning a longer hire, especially for weekend trips, house moves or business mileage across East Devon and into Dorset or Somerset."
+      infoContentBlock3Title="From local errands to coast-bound travel"
+      infoContentBlock3Body="Colyton works well as a base for practical and leisure travel alike. Hires are often useful for trips to the Jurassic Coast, group transport to Seaton Tramway events, or carrying larger loads when a normal car is not enough. Delivery and collection can also save time locally."
+      bottomCtaTitle="Book a vehicle in Colyton"
+      bottomCtaDescription="Need a dependable hire vehicle in Colyton? We can help with cars, vans, minibuses and trucks for local travel, moving jobs and planned journeys."
+      secondaryCtaTitle="Arrange your Colyton booking"
+      secondaryCtaDescription="If you already know your dates and vehicle type, we can help you arrange a straightforward hire in Colyton with clear local support."
       faqs={[
-        { question: "Do you cover Ilminster for vehicle hire?", answer: "Yes. We can arrange vehicle hire for customers in Ilminster, with options across cars, vans, minibuses and trucks depending on availability and journey needs." },
-        { question: "Can I hire in Ilminster for a one-way trip or travel abroad?", answer: "That depends on the vehicle type and your plans. Let us know where you are travelling and we will confirm whether one-way hire or European travel can be arranged." },
-        { question: "Is Ilminster hire suitable for business and personal use?", answer: "We supply vehicles for personal and commercial use, so we can help with family travel, home moves, delivery work, site transport and other practical requirements." },
-        { question: "Can you deliver and collect hired vehicles in Ilminster?", answer: "In many cases, yes. Delivery and collection can be a useful option if you want to avoid extra travel before or after your rental. Ask when booking and we will confirm what is possible." },
-        { question: "What do I need to hire a vehicle in Ilminster?", answer: "Bring your driving licence plus any supporting details needed for checks. If you are unsure what is required for your vehicle type, contact us before travel." },
+        { question: "Is vehicle hire available in Lyme Regis?", answer: "Yes, we provide vehicle hire for Lyme Regis with cars, vans, minibuses and trucks available for different types of journeys." },
+        { question: "What kind of vehicle works best for Lyme Regis travel?", answer: "Lyme Regis can be busy and hilly, so choosing the right vehicle for passenger numbers, luggage and parking plans is important." },
+        { question: "Can you deliver a hire vehicle to Lyme Regis?", answer: "Delivery and collection may be available depending on the booking details and exact location." },
+        { question: "Can I hire a van for a job in Lyme Regis?", answer: "Yes, many customers hire vans for moves, furniture collection, maintenance work and property support around Lyme Regis." },
+        { question: "Are extended hires possible from Lyme Regis?", answer: "Yes, longer bookings can often be discussed in advance, subject to the vehicle type and availability at the time." },
       ]}
     />
   );

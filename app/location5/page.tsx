@@ -6,37 +6,37 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location5-hero",
     src: "/images/millbrook-hero-country-road.jpeg",
-    alt: "Long-wheelbase hire van on a straight country road near Wellington",
+    alt: "Rental saloon car approaching a small bridge near Langport with open fields and reeds.",
   };
 
   return (
     <HomePage
-      currentLocationLabel="Wellington"
+      currentLocationLabel="Langport"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Honiton"
-      heroDescription="Vehicle Hire Honiton for business journeys, moving days, family travel, and day-to-day transport. Choose from cars, vans, minibuses, and trucks to match the task."
-      serviceAreasTitle="Serving Wellington and nearby roads"
-      serviceAreasDescription="Our Wellington coverage extends across the town and surrounding Somerset routes, making it straightforward to arrange car, van, minibus or truck hire for local jobs and onward travel."
-      infoContentSectionKicker="Local hire guidance"
-      infoContentSectionTitle="Vehicle hire that fits day-to-day travel around Wellington"
-      infoContentSectionIntro="Vehicle hire in Honiton suits a wide mix of needs, from practical household tasks to commercial transport and longer road trips. With good onward road access, it is often a straightforward place to start a journey that needs more space, seats, or carrying ability than usual."
-      infoContentBlock1Title="A handy base for longer regional travel"
-      infoContentBlock1Body="Honiton is a strong location for vehicle hire because many journeys branch outward toward Exeter, East Devon, and neighbouring counties. A hire vehicle can be useful when you need temporary flexibility rather than a permanent larger vehicle."
-      infoContentBlock2Title="Helpful for moves, collections, and weekend jobs"
-      infoContentBlock2Body="For home projects and moving days, van hire gives you the space to collect furniture, clear storage, or transport bulky purchases in fewer trips. That can make planning much easier, especially over a busy weekend."
-      infoContentBlock3Title="Useful extra capacity for local businesses"
-      infoContentBlock3Body="Honiton businesses can also benefit from access to vans and trucks during seasonal peaks, maintenance periods, or temporary workload increases. Hiring lets you scale up only when the work requires it."
-      bottomCtaTitle="Arrange a vehicle in Honiton"
-      bottomCtaDescription="If you need extra carrying space or a reliable vehicle for local and regional journeys, we can help with Honiton hire options."
-      secondaryCtaTitle="Need something specific?"
-      secondaryCtaDescription="If you already know the type of vehicle you need, we can help you book something practical for local driving, business mileage or a longer trip beyond town."
+      heroTitle="Vehicle Hire Langport"
+      heroDescription="Vehicle hire in Langport for local journeys, rural deliveries, business use and family travel. A practical fleet for short-term and planned bookings."
+      serviceAreasTitle="Vehicle hire for Langport and the Levels"
+      serviceAreasDescription="We cover Langport and the surrounding Somerset Levels, supporting drivers in nearby villages and on wider regional routes."
+      infoContentSectionKicker="Coastal hire guidance"
+      infoContentSectionTitle="Practical hire advice for Langport and nearby villages"
+      infoContentSectionIntro="Langport sits in a rural part of Somerset where having the right vehicle can make day-to-day jobs far easier. For moves between villages, business visits, market-town errands or longer runs towards Taunton, Yeovil and Street, short-term hire gives useful flexibility without long-term commitment."
+      infoContentBlock1Title="Driving the coast road from Seaton"
+      infoContentBlock1Body="Seaton is linked by the A3052, which is the main route for travel towards Lyme Regis, Sidmouth and Exeter. If you are hiring for a holiday let, family visit or coastal delivery, planning around that road makes journeys simpler, especially in busier visitor periods."
+      infoContentBlock2Title="Parking and access around town"
+      infoContentBlock2Body="The seafront and town centre can be busier during weekends and school holidays, so choosing the right vehicle size matters. A compact car may be easiest for parking, while a larger vehicle is better reserved for planned loading, moving or off-peak collection work."
+      infoContentBlock3Title="Matching the vehicle to a Seaton trip"
+      infoContentBlock3Body="Seaton is well suited to leisure-focused hire, but local trades and property owners also benefit from vans and trucks for maintenance work and changeovers. Whether you are carrying beach gear, tools or bulky supplies, the right vehicle helps keep the trip straightforward."
+      bottomCtaTitle="Arrange your Langport vehicle hire"
+      bottomCtaDescription="Whether you need transport for a move, a delivery run or everyday travel, our Langport vehicle hire service is built around practical local needs."
+      secondaryCtaTitle="Talk through your Langport hire plans"
+      secondaryCtaDescription="Tell us what you need from a Langport rental and we will help you choose a vehicle that suits the roads, distance and load involved."
       faqs={[
-        { question: "What can I hire in Honiton?", answer: "Yes. We provide access to cars, vans, minibuses, and trucks for customers in Honiton needing flexible short-term or longer hires." },
-        { question: "Do you deliver to Honiton addresses?", answer: "Delivery is often available and can be especially useful for home moves, business bookings, or when you want to avoid an extra collection trip." },
-        { question: "Can I book a one-way hire from Honiton?", answer: "Yes, selected one-way rentals can be arranged. Let us know your pickup point and destination so we can check the route." },
-        { question: "Are Honiton hires available for trips into Europe?", answer: "Potentially, yes. European travel needs prior approval, so please raise it before confirming your booking." },
-        { question: "Is unlimited mileage possible in Honiton?", answer: "Many vehicles can be hired with unlimited mileage, depending on the booking terms. We can confirm once we know your plans." },
+        { question: "Do you provide vehicle hire in Seaton?", answer: "Yes, we can arrange vehicle hire for Seaton, including cars, vans, minibuses and trucks." },
+        { question: "Is hire suitable for Seaton holiday and coastal travel?", answer: "Seaton is a useful location for leisure-focused hire, especially if you need extra space for passengers, luggage or holiday equipment." },
+        { question: "Can a hire vehicle be delivered in Seaton?", answer: "Delivery and collection may be possible around Seaton, depending on the booking details and chosen vehicle." },
+        { question: "Can I hire a van for practical jobs in Seaton?", answer: "Yes, vans can be booked for household jobs, furniture transport, storage runs and property work in and around Seaton." },
+        { question: "Are longer bookings available from Seaton?", answer: "Some bookings can be arranged for longer durations or specialist travel plans, subject to availability and advance notice." },
       ]}
     />
   );
